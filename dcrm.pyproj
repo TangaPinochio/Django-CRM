@@ -37,15 +37,27 @@
     <Compile Include="dcrm\wsgi.py" />
     <Compile Include="website\admin.py" />
     <Compile Include="website\apps.py" />
+    <Compile Include="website\forms.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="website\migrations\__init__.py" />
     <Compile Include="website\models.py" />
     <Compile Include="website\tests.py" />
+    <Compile Include="website\urls.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="website\views.py" />
     <Compile Include="website\__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
-    <Content Include="website\templates\website\index.html" />
+    <Content Include="website\templates\website\add_record.html" />
+    <Content Include="website\templates\website\base.html" />
+    <Content Include="website\templates\website\home.html" />
+    <Content Include="website\templates\website\navbar.html" />
+    <Content Include="website\templates\website\record.html" />
+    <Content Include="website\templates\website\register.html" />
+    <Content Include="website\templates\website\update_record.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="dcrm\" />
